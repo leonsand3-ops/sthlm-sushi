@@ -1,0 +1,37 @@
+{
+  "generated": "2025-03-17",
+  "model": "gpt-image-1",
+  "quality": "high",
+  "style": "photorealistic-professional-food-photography",
+  "images": [
+    {
+      "id": "hero",
+      "filename": "001-cinematic-dark-atmospheric-background-fo.png",
+      "usage": "Hero / Bakgrund",
+      "size": "1536x1024",
+      "prompt": "Professional food photography of beautiful nigiri sushi platter on dark wood surface. Multiple pieces of fresh salmon and tuna nigiri arranged elegantly. Soft side lighting creates gentle shadows showing texture of fish. Shallow depth of field. Blurred dark restaurant background. Natural muted colors, not oversaturated. Photorealistic, 8k quality, as shot by professional food photographer for restaurant website."
+    },
+    {
+      "id": "chef-hands",
+      "filename": "001-extreme-close-up-of-master-sushi-chef-ha.png",
+      "usage": "Om Oss - Sushimästaren",
+      "size": "1024x1536",
+      "prompt": "Close-up photorealistic shot of sushi chef hands shaping nigiri. Elegant hands pressing rice and placing slice of fresh salmon on top. Wooden cutting board underneath. Natural soft window lighting from side. Detailed realistic skin texture, not plastic looking. Professional food photography, shallow depth of field. Authentic Japanese restaurant kitchen setting. 8k quality, shot with macro lens."
+    },
+    {
+      "id": "fresh-fish",
+      "filename": "001-artistic-still-life-of-premium-fresh-fis.png",
+      "usage": "Meny - Färsk fisk",
+      "size": "1536x1024",
+      "prompt": "Professional food photography of premium fresh sashimi-grade tuna and salmon slices. Laid on clean black slate surface. Visible droplets of moisture, natural glossy sheen on fish. Macro detail showing texture of the flesh. Natural soft lighting from above. High-end restaurant presentation. Photorealistic, natural colors not oversaturated, 8k quality, shot by professional food photographer."
+    },
+    {
+      "id": "atmosphere",
+      "filename": "001-abstract-japanese-minimalist-composition.png",
+      "usage": "Atmosfär / Texture",
+      "size": "1536x1024",
+      "prompt": "Minimalist elegant Japanese restaurant detail. Ceramic soy sauce dish with dark soy sauce, wooden chopsticks resting on holder, small bamboo mat texture visible. Soft diffused natural lighting. Clean composition, muted earthy tones. Photorealistic, professional still life photography. Shallow depth of field with soft neutral background. Authentic, not artistic or stylized. Restaurant website quality, 8k photorealistic."
+    }
+  ],
+  "notes": "Alla bilder är fotorealistiska med naturligt ljus och professionell matfotografi-kvalitet. Inga surrealistiska element eller överdrivna färger."
+}

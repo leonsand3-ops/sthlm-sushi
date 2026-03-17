@@ -1,21 +1,65 @@
 <!doctype html>
 <meta charset="utf-8" />
-<title>openai-image-gen</title>
+<title>STHLM Sushi - Realistiska Bilder</title>
 <style>
   :root { color-scheme: dark; }
   body { margin: 24px; font: 14px/1.4 ui-sans-serif, system-ui; background: #0b0f14; color: #e8edf2; }
-  h1 { font-size: 18px; margin: 0 0 16px; }
-  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 16px; }
-  figure { margin: 0; padding: 12px; border: 1px solid #1e2a36; border-radius: 14px; background: #0f1620; }
-  img { width: 100%; height: auto; border-radius: 10px; display: block; }
-  figcaption { margin-top: 10px; color: #b7c2cc; }
-  code { color: #9cd1ff; }
+  h1 { font-size: 22px; margin: 0 0 8px; }
+  h2 { font-size: 16px; color: #9cd1ff; margin: 24px 0 12px; border-bottom: 1px solid #1e2a36; padding-bottom: 8px; }
+  .subtitle { color: #8899aa; margin-bottom: 16px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+  figure { margin: 0; padding: 14px; border: 1px solid #1e2a36; border-radius: 14px; background: #0f1620; }
+  img { width: 100%; height: 220px; object-fit: cover; border-radius: 10px; display: block; }
+  figcaption { margin-top: 12px; color: #b7c2cc; font-size: 13px; line-height: 1.5; }
+  .label { display: inline-block; background: #1e3a5f; color: #9cd1ff; padding: 3px 10px; border-radius: 4px; font-size: 11px; font-weight: 600; margin-bottom: 8px; text-transform: uppercase; }
+  code { color: #9cd1ff; font-size: 12px; }
 </style>
-<h1>openai-image-gen</h1>
-<p>Output: <code>/Users/reghar/.openclaw/agents/groups/leon/projects/sthlm-sushi/images</code></p>
+<h1>STHLM Sushi - Nya Realistiska Bilder</h1>
+<p class="subtitle">Fotorealistiska bilder för restaurangwebbplats | Genererad 2025-03-17</p>
+
+<h2>🍣 Huvudbilder</h2>
 <div class="grid">
 <figure>
+  <span class="label">Hero / Bakgrund</span>
+  <a href="001-cinematic-dark-atmospheric-background-fo.png"><img src="001-cinematic-dark-atmospheric-background-fo.png" loading="lazy" /></a>
+  <figcaption>Vackert fat med nigiri-sushi på mörk träyta. Mjukt sidoljus som visar textur på fisken. Låg vinkel, professionell food-fotografi.</figcaption>
+</figure>
+
+<figure>
+  <span class="label">Om Oss - Sushimästaren</span>
+  <a href="001-extreme-close-up-of-master-sushi-chef-ha.png"><img src="001-extreme-close-up-of-master-sushi-chef-ha.png" loading="lazy" /></a>
+  <figcaption>Händer som formar nigiri. Fokus på precision och teknik. Naturligt ljus, träskiva under. Realistisk hudtextur.</figcaption>
+</figure>
+
+<figure>
+  <span class="label">Meny - Färsk fisk</span>
+  <a href="001-artistic-still-life-of-premium-fresh-fis.png"><img src="001-artistic-still-life-of-premium-fresh-fis.png" loading="lazy" /></a>
+  <figcaption>Närbild på premium tonfisk och lax. Liggandes på svart yta. Droppar av fukt, naturlig glans. Professionell matfotografi.</figcaption>
+</figure>
+
+<figure>
+  <span class="label">Atmosfär / Texture</span>
   <a href="001-abstract-japanese-minimalist-composition.png"><img src="001-abstract-japanese-minimalist-composition.png" loading="lazy" /></a>
-  <figcaption>Abstract Japanese minimalist composition for luxury restaurant. Delicate washi rice paper texture with subtle bamboo shadow patterns. Soft diffused light creating gentle gradients. Empty negative space, zen aesthetic. Color palette: warm off-white, subtle grey, hints of burnt umber. Tonal, atmospheric, refined simplicity. No text, no objects, pure texture and light. Cinematic, ultra high-end gallery quality.</figcaption>
+  <figcaption>Enkel, elegant detalj — sojasåsskål, pinnar på bambumatta. Minimalistisk, realistisk, mjuk bakgrundsbelysning.</figcaption>
 </figure>
 </div>
+
+<h2>📋 Prompts som användes</h2>
+<p><code>gpt-image-1</code> med <code>high</code> kvalitet. Alla bilder genererade med fokus på fotorealism, naturligt ljus, och professionell matfotografi-stil.</p>
+<pre style="background: #0f1620; padding: 16px; border-radius: 8px; overflow-x: auto; font-size: 12px; line-height: 1.6;">
+1. HERO: "Professional food photography of beautiful nigiri sushi platter on dark wood surface. 
+   Soft side lighting creates gentle shadows showing texture of fish. Photorealistic, 8k quality."
+
+2. HÄNDER: "Close-up photorealistic shot of sushi chef hands shaping nigiri. Natural soft 
+   window lighting from side. Detailed realistic skin texture, not plastic looking."
+
+3. FISK: "Professional food photography of premium fresh sashimi-grade tuna and salmon 
+   slices. Laid on clean black slate surface. Visible droplets of moisture, natural glossy sheen."
+
+4. ATMOSFÄR: "Minimalist elegant Japanese restaurant detail. Ceramic soy sauce dish with 
+   dark soy sauce, wooden chopsticks on bamboo mat. Soft diffused natural lighting."
+</pre>
+
+<p style="margin-top: 24px; color: #8899aa; font-size: 12px;">
+  Gamla bilder sparade i <code>backup-old/</code> | Nya bilder i <code>new-images/</code>
+</p>
